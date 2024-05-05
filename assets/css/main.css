@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    display: block;
+    background-color: rgb(129, 129, 129);
+}
+
+.NavBar{
+    background-color: rgb(82, 82, 82);
+    overflow: hidden;
+}
+
+.NavBar :where(.leftBar, .rightBar){
+    background-color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.NavBar .leftBar{
+    float: left;
+    text-transform: uppercase;
+}
+
+.NavBar .rightBar{
+    float: right;
+}
+
+.NavBar :where(.leftBar, .rightBar):hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.HomeImg{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.HomeImg img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.HomeImg .profile{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 5px solid yellow;
+    min-width: 90%;
+}
