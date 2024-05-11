@@ -114,3 +114,37 @@
         transform: scaleX(1);
     }
 }
+
+.Section{
+    padding: 20px 0;
+    background-color: yellow;
+}
+
+.Section .topic{
+    background-color: grey;
+    width: 300px;
+}
+
+.Section .topic h2{
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.content{
+    width: 700px;
+    position: relative;
+    left: 50%;
+    padding: 10px;
+    transform: translateX(-50%);
+}
+
+.content p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.content p span{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
