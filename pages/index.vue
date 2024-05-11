@@ -11,9 +11,7 @@
                     <h2>
                         <span>Hi</span>
                         <br>
-                        <br>
                         I'm Siwakorn Pasawang (Oat).
-                        <br>
                         <br>
                         I achieve my projects !!
                         
@@ -23,6 +21,18 @@
                     <img src="~/assets/img/profile.jpg" alt="" srcset="">
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="Section">
+        <div class="topic"><h2>Personal Information</h2></div>
+        <div class="content">
+            <p>
+                Hello Everyone, My full name is Mr. Siwakorn Pasawang,
+                but most of people often call me Oat. I am enrolled at Kasetsart University.
+                I am interested in Software Engineer, Artificial Intelligence, Machine Learning, Deep Learning and Internet Of Thing.
+                There are many my hard skills for programming, such as Python, C/C++, Java, Unix, and etc.
+            </p>
         </div>
     </div>
 </template>
