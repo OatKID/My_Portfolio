@@ -27,12 +27,23 @@
     <div class="Section">
         <div class="topic"><h2>Personal Information</h2></div>
         <div class="content">
-            <p>
-                Hello Everyone, My full name is <span>Mr. Siwakorn Pasawang</span>,
-                but most of people often call me <span>Oat</span>. I am enrolled at <span>Kasetsart University</span>.
-                I am interested in Software Engineer, Artificial Intelligence, Machine Learning, Deep Learning and Internet Of Thing.
-                There are many my hard skills for programming, such as Python, C/C++, Java, Unix, and etc.
-            </p>
+            <ul>
+                <li>Fullname : Mr. Siwakorn Pasawang</li>
+                <li>Nickname : Oat</li>
+                <li>High School : Debsirin Nonthaburi School</li>
+                <li>University : Kasetsart University</li>
+                <li>Home Contry : Thailand</li>
+            </ul>
+        </div>
+
+        <div class="topic"><h2>Contact</h2></div>
+        <div class="content">
+            <ul>
+                <li>E-mail : pasawang.sivakorn@gmail.com</li>
+                <li>Facebook : Siwakorn Pasawang</li>
+                <li>Github : OatKID</li>
+                <li>Discord : OatKID</li>
+            </ul>
         </div>
     </div>
 

@@ -131,20 +131,7 @@
     font-weight: bold;
 }
 
-.content{
+.Section .content{
     width: 700px;
-    position: relative;
-    left: 50%;
     padding: 10px;
-    transform: translateX(-50%);
-}
-
-.content p{
-    text-align: justify;
-    line-height: 30px;
-}
-
-.content p span{
-    font-weight: bold;
-    text-decoration-line: underline;
 }
