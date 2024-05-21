@@ -1,8 +1,13 @@
 <template>
     <div class="Header">
         <div class="NavBar">
-            <div class="leftBar">My Porfolio</div>
-			<div class="rightBar">time</div>
+            <div class="leftBar">oatkid</div>
+			<div class="rightBar">
+                <NuxtLink class="goPage" to="#">Home</NuxtLink>
+                <NuxtLink class="goPage" to="#">Skill</NuxtLink>
+                <NuxtLink class="goPage" to="#">Achievement</NuxtLink>
+                <NuxtLink class="goPage" to="#">About</NuxtLink>
+            </div>
         </div>
         <div class="HomeImg">
             <img src="/assets/img/homepage.jpg"/>

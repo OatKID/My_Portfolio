@@ -20,26 +20,40 @@
 }
 
 .NavBar :where(.leftBar, .rightBar){
-    background-color: white;
     padding: 5px 30px;
-    font-weight: bold;
     font-size: 25px;
 }
 
 .NavBar .leftBar{
     float: left;
     text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
 }
 
 .NavBar .rightBar{
     float: right;
 }
 
-.NavBar :where(.leftBar, .rightBar):hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
+.goPage{
+    padding: 0 10px;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.goPage:hover{
+    color:white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .goPage{
+        display: block;
+
+    }
 }
 
 .HomeImg{
