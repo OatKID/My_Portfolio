@@ -6,7 +6,6 @@
     font-weight: normal;
     font-style: normal;
     margin: 0;
-    padding: 0;
 }
 
 .Header{
@@ -148,4 +147,8 @@
 .Section .content{
     width: 700px;
     padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
 }

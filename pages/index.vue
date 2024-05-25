@@ -50,6 +50,42 @@
                 <li>Discord : OatKID</li>
             </ul>
         </div>
+
+        <div class="topic"><h2>Hard Skill</h2></div>
+        <div class="content">
+            <ul>
+                <li>
+                    Programming Language
+                    <ul>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Frameworks
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Nuxt JS</li>
+                        <li>Tailwind CSS</li>
+                        <li>Next JS</li>
+                        <li>Java FX</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Other
+                    <ul>
+                        <li>Unix</li>
+                        <li>Arduino</li>
+                        <li>Machine Learning</li>
+                        <li>MySQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 
 </template>
