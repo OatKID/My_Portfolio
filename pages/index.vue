@@ -51,6 +51,7 @@
             </ul>
         </div>
 
+
         <div class="topic"><h2>Hard Skill</h2></div>
         <div class="content">
             <ul>
@@ -60,6 +61,8 @@
                         <li>Python</li>
                         <li>C/C++</li>
                         <li>Java</li>
+                        <li>MySQL</li>
+                        <li>Assembly</li>
                     </ul>
                 </li>
 
@@ -75,13 +78,12 @@
                 </li>
 
                 <li>
-                    Other
+                    Subject
                     <ul>
-                        <li>Unix</li>
-                        <li>Arduino</li>
+                        <li>Software Engineer</li>
+                        <li>Artificial Intelligence</li>
                         <li>Machine Learning</li>
-                        <li>MySQL</li>
-                        <li>Docker</li>
+                        <li>Unix</li>
                     </ul>
                 </li>
             </ul>
@@ -90,6 +92,7 @@
 
 </template>
 
-<script>
+<script setup>
+
     
 </script>
