@@ -33,30 +33,30 @@
         <div class="topic"><h2>Personal Information</h2></div>
         <div class="content">
             <ul>
-                <li>Fullname : Mr. Siwakorn Pasawang</li>
-                <li>Nickname : Oat</li>
-                <li>High School : Debsirin Nonthaburi School</li>
-                <li>University : Kasetsart University</li>
-                <li>Home Contry : Thailand</li>
+                <li><span>Fullname</span> : Mr. Siwakorn Pasawang</li>
+                <li><span>Nickname</span> : Oat</li>
+                <li><span>High School</span> : Debsirin Nonthaburi School</li>
+                <li><span>University</span> : Kasetsart University</li>
+                <li><span>Home Contry</span> : Thailand</li>
             </ul>
         </div>
 
-        <div class="topic"><h2>Contact</h2></div>
+        <div class="topic"><h2>Contacts</h2></div>
         <div class="content">
             <ul>
-                <li>E-mail : pasawang.sivakorn@gmail.com</li>
-                <li>Facebook : Siwakorn Pasawang</li>
-                <li>Github : OatKID</li>
-                <li>Discord : OatKID</li>
+                <li><span>E-mail</span> : pasawang.sivakorn@gmail.com</li>
+                <li><span>Facebook</span> : Siwakorn Pasawang</li>
+                <li><span>Github</span> : OatKID</li>
+                <li><span>Discord</span> : OatKID</li>
             </ul>
         </div>
 
 
-        <div class="topic"><h2>Hard Skill</h2></div>
+        <div class="topic"><h2>Hard Skills</h2></div>
         <div class="content">
             <ul>
                 <li>
-                    Programming Language
+                    <span>Programming Languages</span>
                     <ul>
                         <li>Python</li>
                         <li>C/C++</li>
@@ -67,7 +67,7 @@
                 </li>
 
                 <li>
-                    Frameworks
+                    <span>Frameworks</span>
                     <ul>
                         <li>Spring Boot</li>
                         <li>Nuxt JS</li>
@@ -78,7 +78,7 @@
                 </li>
 
                 <li>
-                    Subject
+                    <span>Fundametals of Computer Science</span>
                     <ul>
                         <li>Software Engineer</li>
                         <li>Artificial Intelligence</li>
