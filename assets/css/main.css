@@ -164,7 +164,7 @@
 }
 
 @media screen and (max-width: 430px) {
-    .NavBar :where(.leftBar, .rightBar){
+    .NavBar .rightBar{
         padding: 5px 20px;
         font-weight: bold;
         font-size: 20px;
@@ -185,7 +185,7 @@
 }
 
 .Section .topic{
-    width: 300px;
+    max-width: 300px;
     border: solid 2px #c088ff;
     border-right: solid #c088ff 10px;
 }
