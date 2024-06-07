@@ -5,9 +5,10 @@
 			<div class="rightBar">
                 <NuxtLink class="goPage" to="#">Home</NuxtLink>
                 <NuxtLink class="goPage" to="#">Skill</NuxtLink>
-                <NuxtLink class="goPage" to="#">Achievement</NuxtLink>
+                <NuxtLink class="goPage" to="#">Project</NuxtLink>
                 <NuxtLink class="goPage" to="#">About</NuxtLink>
             </div>
+            <div class="menuIcon" @click="showMenu"><Icon name="material-symbols:menu" /></div>
         </div>
         <div class="HomeImg">
             <img src="/assets/img/homepage.jpg"/>
@@ -29,6 +30,16 @@
         </div>
     </div>
 
+    <div class="menuPage" id="menuList">
+            <div class="closeMark" @click="closeMenu"><Icon name="entypo:cross" size="32px"/></div>
+            <div class="listGoPage">
+                <NuxtLink class="goPage" to="#">Home</NuxtLink>
+                <NuxtLink class="goPage" to="#">Skill</NuxtLink>
+                <NuxtLink class="goPage" to="#">Project</NuxtLink>
+                <NuxtLink class="goPage" to="#">About</NuxtLink>
+            </div>
+    </div>
+
     <div class="Section">
         <div class="topic"><h2>Personal Information</h2></div>
         <div class="content">
@@ -40,17 +51,6 @@
                 <li><span>Home Contry</span> : Thailand</li>
             </ul>
         </div>
-
-        <div class="topic"><h2>Contacts</h2></div>
-        <div class="content">
-            <ul>
-                <li><span>E-mail</span> : pasawang.sivakorn@gmail.com</li>
-                <li><span>Facebook</span> : Siwakorn Pasawang</li>
-                <li><span>Github</span> : OatKID</li>
-                <li><span>Discord</span> : OatKID</li>
-            </ul>
-        </div>
-
 
         <div class="topic"><h2>Hard Skills</h2></div>
         <div class="content">
@@ -88,11 +88,30 @@
                 </li>
             </ul>
         </div>
+
+        <div class="topic"><h2>Contacts</h2></div>
+        <div class="content">
+            <ul>
+                <li><span>E-mail</span> : pasawang.sivakorn@gmail.com</li>
+                <li><span>Facebook</span> : Siwakorn Pasawang</li>
+                <li><span>Github</span> : OatKID</li>
+                <li><span>Discord</span> : OatKID</li>
+            </ul>
+        </div>
+
+
     </div>
 
 </template>
 
-<script setup>
+<script setup lang="ts">
+    function showMenu(){
+        const menuList = document.getElementById("menuList");
+        menuList.style.width = "200px";
+    };
 
-    
+    function closeMenu(){
+        const menuList = document.getElementById("menuList");
+        menuList.style.width = "0";
+    };
 </script>
