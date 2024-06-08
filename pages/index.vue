@@ -1,44 +1,5 @@
 <template>
-    <div class="Header">
-        <div class="NavBar">
-            <div class="leftBar">oatkid</div>
-			<div class="rightBar">
-                <NuxtLink class="goPage" to="#">Home</NuxtLink>
-                <NuxtLink class="goPage" to="#">Skill</NuxtLink>
-                <NuxtLink class="goPage" to="#">Project</NuxtLink>
-                <NuxtLink class="goPage" to="#">About</NuxtLink>
-            </div>
-            <div class="menuIcon" @click="showMenu"><Icon name="material-symbols:menu" /></div>
-        </div>
-        <div class="HomeImg">
-            <img src="/assets/img/homepage.jpg"/>
-            <div class="profile">
-                <div class="speech">
-                    <h2>
-                        <span>Hi</span>
-                        <br>
-                        I'm Siwakorn Pasawang (Oat).
-                        <br>
-                        I achieve my projects !!
-                        
-                    </h2>
-                </div>
-                <div class="profileImg">
-                    <img src="~/assets/img/profile.jpg" alt="" srcset="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="menuPage" id="menuList">
-            <div class="closeMark" @click="closeMenu"><Icon name="entypo:cross" size="32px"/></div>
-            <div class="listGoPage">
-                <NuxtLink class="goPage" to="#">Home</NuxtLink>
-                <NuxtLink class="goPage" to="#">Skill</NuxtLink>
-                <NuxtLink class="goPage" to="#">Project</NuxtLink>
-                <NuxtLink class="goPage" to="#">About</NuxtLink>
-            </div>
-    </div>
+    <HeaderNavBar :banner="true"/>
 
     <div class="Section">
         <div class="topic"><h2>Personal Information</h2></div>
@@ -105,13 +66,5 @@
 </template>
 
 <script setup lang="ts">
-    function showMenu(){
-        const menuList = document.getElementById("menuList");
-        menuList.style.width = "200px";
-    };
 
-    function closeMenu(){
-        const menuList = document.getElementById("menuList");
-        menuList.style.width = "0";
-    };
 </script>

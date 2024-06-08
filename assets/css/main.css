@@ -87,6 +87,65 @@
     cursor: pointer;
 }
 
+.HomeImg{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.HomeImg > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.HomeImg .profile{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 150px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 5px;
+}
+
+.HomeImg .profile .speech{
+    width: 70%;
+}
+
+.HomeImg .profile .speech h2{
+    position: relative;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.HomeImg .profile .speech h2 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.HomeImg .profile .profileImg{
+    width: 30%;
+    height: 100%;
+}
+
+.HomeImg .profile .profileImg img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: 0.5s filp-animation;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px white;
+}
+
 @media only screen and (max-width: 768px) {
 
     .rightBar{
@@ -105,69 +164,20 @@
     .menuPage{
         display: block;
     }
-}
+    .HomeImg .profile .speech{
+        font-size: 10px;
+    }
 
-.HomeImg{
-    width: 100%;
-    height: 400px;
-    position: relative;
-}
+    .HomeImg .profile .speech h2{
+        font-size: 17px;
+    }
 
-.HomeImg > img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    filter: blur(2px);
-}
+    .HomeImg .profile .speech h2 span{
+        font-size: 30px;
+    }
 
-.HomeImg .profile{
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.705);
-}
-
-.HomeImg .profile .speech{
-    width: 70%;
-}
-
-.HomeImg .profile .speech h2{
-    position: relative;
-    width: 70%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.HomeImg .profile .speech h2 span{
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.HomeImg .profile .profileImg{
-    width: 30%;
-}
-
-.HomeImg .profile .profileImg img{
-    max-width: 100%;
-    height: 250px;
-    border-radius: 50%;
-    animation: 0.5s filp-animation;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 10px white;
-}
-
-@media screen and (max-width: 430px) {
-    .NavBar .rightBar{
-        padding: 5px 20px;
-        font-weight: bold;
-        font-size: 20px;
+    .HomeImg .profile .profileImg{
+        height: 150px;
     }
 }
 
