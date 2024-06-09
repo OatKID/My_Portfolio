@@ -146,6 +146,15 @@
     box-shadow: 0 0 10px white;
 }
 
+.HomeImg .profile .title{
+    margin: auto;
+}
+
+.HomeImg .profile .title h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
 @media only screen and (max-width: 768px) {
 
     .rightBar{
@@ -198,6 +207,16 @@
     max-width: 300px;
     border: solid 2px #c088ff;
     border-right: solid #c088ff 10px;
+    position: relative;
+}
+
+.Section .topic::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #e1c6ff;
+    z-index: -1;
+    animation: showhighlight 2s ease-out forwards;
 }
 
 .Section .topic h2{
@@ -220,4 +239,14 @@
 .Section .content ul li span{
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+@keyframes showhighlight{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 100%;
+    }
 }
